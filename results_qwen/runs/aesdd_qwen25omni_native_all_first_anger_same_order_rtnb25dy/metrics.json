@@ -1,0 +1,84 @@
+{
+  "source_file": "C:\\Users\\faidr\\Documents\\sentimental_analysis\\results_qwen\\aesdd_qwen25omni_native_all_first_anger_same_order.jsonl",
+  "labels": [
+    "anger",
+    "disgust",
+    "fear",
+    "happiness",
+    "sadness"
+  ],
+  "chance_accuracy": 0.2,
+  "accuracy": 0.2866666666666667,
+  "summary": {
+    "n": 600,
+    "WA": 28.666666666666668,
+    "UA": 28.473128430528956,
+    "Macro-F1": 22.005713561895735,
+    "Invalid %": 2.5
+  },
+  "classification_report": {
+    "anger": {
+      "precision": 0.25699745547073793,
+      "recall": 0.8347107438016529,
+      "f1-score": 0.39299610894941633,
+      "support": 121.0
+    },
+    "disgust": {
+      "precision": 0.13793103448275862,
+      "recall": 0.03305785123966942,
+      "f1-score": 0.05333333333333334,
+      "support": 121.0
+    },
+    "fear": {
+      "precision": 0.5,
+      "recall": 0.01680672268907563,
+      "f1-score": 0.032520325203252036,
+      "support": 119.0
+    },
+    "happiness": {
+      "precision": 0.5,
+      "recall": 0.07627118644067797,
+      "f1-score": 0.1323529411764706,
+      "support": 118.0
+    },
+    "sadness": {
+      "precision": 0.5185185185185185,
+      "recall": 0.4628099173553719,
+      "f1-score": 0.4890829694323144,
+      "support": 121.0
+    },
+    "micro avg": {
+      "precision": 0.3115942028985507,
+      "recall": 0.2866666666666667,
+      "f1-score": 0.2986111111111111,
+      "support": 600.0
+    },
+    "macro avg": {
+      "precision": 0.382689401694403,
+      "recall": 0.28473128430528954,
+      "f1-score": 0.22005713561895734,
+      "support": 600.0
+    },
+    "weighted avg": {
+      "precision": 0.38171181337518967,
+      "recall": 0.2866666666666667,
+      "f1-score": 0.22112077929255544,
+      "support": 600.0
+    }
+  },
+  "prediction_distribution": {
+    "anger": 393,
+    "sadness": 108,
+    "disgust": 29,
+    "happiness": 18,
+    "INVALID": 15,
+    "calm": 10,
+    "neutral": 7,
+    "boredom": 7,
+    "confusion": 4,
+    "fear": 4,
+    "hatred": 2,
+    "irritation": 2,
+    "pride": 1
+  }
+}

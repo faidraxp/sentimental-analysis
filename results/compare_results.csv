@@ -1,0 +1,6 @@
+﻿emotion,accuracy_pct,macro_precision_pct,macro_recall_pct,macro_f1_pct,weighted_f1_pct,invalid_pct,clips
+anger,28.67,38.27,28.47,22.01,22.11,2.50,600
+disgust,28.50,38.22,28.44,21.94,21.99,2.50,600
+fear,28.50,38.22,28.44,21.94,21.98,2.50,600
+happiness,28.50,38.22,28.43,21.92,21.99,2.50,600
+sadness,28.50,38.22,28.37,21.90,22.02,2.50,600

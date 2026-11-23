@@ -1,0 +1,84 @@
+{
+  "source_file": "C:\\Users\\faidr\\Documents\\sentimental_analysis\\results_qwen\\aesdd_qwen25omni_native_all_first_fear_same_order.jsonl",
+  "labels": [
+    "anger",
+    "disgust",
+    "fear",
+    "happiness",
+    "sadness"
+  ],
+  "chance_accuracy": 0.2,
+  "accuracy": 0.285,
+  "summary": {
+    "n": 600,
+    "WA": 28.499999999999996,
+    "UA": 28.44277910071439,
+    "Macro-F1": 21.937817124330635,
+    "Invalid %": 2.5
+  },
+  "classification_report": {
+    "anger": {
+      "precision": 0.2544529262086514,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.3898635477582846,
+      "support": 120.0
+    },
+    "disgust": {
+      "precision": 0.13793103448275862,
+      "recall": 0.03305785123966942,
+      "f1-score": 0.05333333333333334,
+      "support": 121.0
+    },
+    "fear": {
+      "precision": 0.5,
+      "recall": 0.016666666666666666,
+      "f1-score": 0.03225806451612903,
+      "support": 120.0
+    },
+    "happiness": {
+      "precision": 0.5,
+      "recall": 0.07627118644067797,
+      "f1-score": 0.1323529411764706,
+      "support": 118.0
+    },
+    "sadness": {
+      "precision": 0.5185185185185185,
+      "recall": 0.4628099173553719,
+      "f1-score": 0.4890829694323144,
+      "support": 121.0
+    },
+    "micro avg": {
+      "precision": 0.30978260869565216,
+      "recall": 0.285,
+      "f1-score": 0.296875,
+      "support": 600.0
+    },
+    "macro avg": {
+      "precision": 0.38218049584198577,
+      "recall": 0.2844277910071439,
+      "f1-score": 0.21937817124330636,
+      "support": 600.0
+    },
+    "weighted avg": {
+      "precision": 0.3816079117636545,
+      "recall": 0.285,
+      "f1-score": 0.2198410219439942,
+      "support": 600.0
+    }
+  },
+  "prediction_distribution": {
+    "anger": 393,
+    "sadness": 108,
+    "disgust": 29,
+    "happiness": 18,
+    "INVALID": 15,
+    "calm": 10,
+    "neutral": 7,
+    "boredom": 7,
+    "confusion": 4,
+    "fear": 4,
+    "hatred": 2,
+    "irritation": 2,
+    "pride": 1
+  }
+}
